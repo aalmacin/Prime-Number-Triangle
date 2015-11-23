@@ -71,6 +71,10 @@ void draw() {
       fill(#7b68ee);
     } else if(isPrime(i)) {
       fill(#4169e1);
+    } else if(i % 10 == 0) {
+      fill(#40e0d0);
+    } else if(i % 6 == 0) {
+      fill(#00bfff);
     } else if(i % 2 == 0) {
       fill(#b0e0e6);
     } else if(i % 4 == 0) {
